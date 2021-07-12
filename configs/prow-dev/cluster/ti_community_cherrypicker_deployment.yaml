@@ -18,7 +18,7 @@ spec:
       terminationGracePeriodSeconds: 180
       containers:
         - name: ti-community-cherrypicker
-          image: ticommunityinfra/tichi-cherrypicker-plugin:v1.7.0-beta.3
+          image: ticommunityinfra/tichi-cherrypicker-plugin:v1.7.0
           imagePullPolicy: Always
           args:
             - --dry-run=false
